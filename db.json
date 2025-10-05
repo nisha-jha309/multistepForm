@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "9083",
+      "Name": "whhhh",
+      "Email": "nisha@gmail.com",
+      "Phone": "9876543210",
+      "Address": "ram nagar"
+    },
+    {
+      "id": "b601",
+      "Name": "whhhh",
+      "Email": "nisha@gmail.com",
+      "Phone": "9876543210",
+      "Address": "new york"
+    },
+    {
+      "id": "9464",
+      "Name": "kashish",
+      "Email": "kashish@gmail.com",
+      "Phone": "9876543210",
+      "Address": "dehradun"
+    },
+    {
+      "id": "1117",
+      "Name": "poonam",
+      "Email": "poonam@gmail.com",
+      "Phone": "8645234560",
+      "Address": "shahdara"
+    },
+    {
+      "id": "e946",
+      "Name": "whhhh",
+      "Email": "nisha@gmail.com",
+      "Phone": "9876543210",
+      "Address": "india"
+    }
+  ]
+}
