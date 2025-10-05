@@ -20,7 +20,7 @@ headers: {
     const response= await api.json();
     console.log(response);
     if(response){
-      alert("form Submitted");
+      setTimeout(() => alert("Form Submitted"), 0);
                 setSubmit(true);
 
     }
