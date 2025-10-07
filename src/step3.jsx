@@ -9,7 +9,7 @@ export default function Step3(){
     console.log("Form submitted:", formData);
     // const url="http://localhost:3000/users";
 
-    const url = "https://json-server-backend.onrender.com/users";
+    const url = "https://json-server-backend-vuo2.onrender.com/users";
 
     const api= await fetch(url,{
 method:"POST",
