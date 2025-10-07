@@ -7,20 +7,22 @@ export default function Step3(){
   const submit = async(e)=>{
       e.preventDefault();
     console.log("Form submitted:", formData);
-    const url="http://localhost:3000/users";
+    // const url="http://localhost:3000/users";
+
+    const url = "https://json-server-backend.onrender.com/users";
 
     const api= await fetch(url,{
 method:"POST",
 body:JSON.stringify(formData),
 headers: {
-        "Content-Type": "application/json", // <-- important!
+        "Content-Type": "application/json"
       }
     });
     
     const response= await api.json();
     console.log(response);
     if(response){
-      setTimeout(() => alert("Form Submitted"), 0);
+      alert("form Submitted");
                 setSubmit(true);
 
     }
@@ -35,7 +37,7 @@ headers: {
             <p><span style={{fontWeight:"bold",marginRight:"15px"}}>Address:</span>{formData.Address}</p>
             <p><span style={{fontWeight:"bold",marginRight:"15px"}}>Phone:</span>{formData.Phone}</p>
         </div>
-        <button type="submit" className={styles.submitBtn} onClick={submit}>Submit</button>
+        <button className={styles.submitBtn} onClick={submit}>Submit</button>
         </div>
         </div>
     )
